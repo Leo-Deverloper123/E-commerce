@@ -1,0 +1,24 @@
+/* styles.css */
+
+  
+  .nav-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  .custom-link {
+    display: block; /* Ensure links fill entire box */
+    color: #100b0b; /* Default link color */
+    text-decoration: none;
+    padding: 8px 12px; /* Add padding to make links clickable */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    border: 1px solid #888; /* Add border */
+  }
+  
+  .custom-link:hover {
+    color: #ffd700; /* Change text color on hover */
+    background-color: #0f0606; /* Darken background color on hover */
+    border-color: #ffd700; /* Change border color on hover */
+  }
+  
